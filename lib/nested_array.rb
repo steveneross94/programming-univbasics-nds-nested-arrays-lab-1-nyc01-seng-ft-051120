@@ -1,4 +1,5 @@
 # Examples inspired by U. S. National Organic Standards
+require 'pry'
 
 ORGANIC_PRODUCE = [
   "Strawberries",
@@ -46,6 +47,7 @@ def matrix_lookup(matrix, row, column)
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
   ]
+  binding.pry
 end
 
 def matrix_update(matrix, row, column, new_value)
