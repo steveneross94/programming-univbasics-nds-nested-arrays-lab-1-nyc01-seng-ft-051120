@@ -36,7 +36,7 @@ def sorted_matrix
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
   ]
-  produce.sort
+  produce.sort!
 end
 
 def matrix_lookup(matrix, row, column)
